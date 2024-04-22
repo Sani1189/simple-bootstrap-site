@@ -49,7 +49,8 @@
   box-sizing: border-box;
   transition: transform 0.3s ease-in-out;
 }
-
+.carousel .carousel-indicators li {background-color: rgb(0, 0, 0);}
+.carousel .carousel-indicators li.active {background-color: blue;}
 li a:hover {
   color: rgb(236, 64, 64) !important;
   font-weight: 700;
